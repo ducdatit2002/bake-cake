@@ -1,0 +1,43 @@
+/* GLOBAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    /* 1 rem = 18px */ 
+    /* Không khai báo thì 1 rem là 16px */
+
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #212529;
+    background-color: #fff;
+    letter-spacing: 1px;
+}
+/* HEADER */
+header {
+    background-color: #4e2a84;
+}
+.header__content {
+    width: 70%;
+    margin: 0 auto; 
+    display: flex;
+    ju
+}
+.header__content ul {
+    list-style: none;
+}
+.header__content ul a {
+    text-decoration: none;
+    color: white;
+}
+.header__content ul li {
+    display: inline;
+}
+.header__content p {
+    color: white;
+    font-size: 2.3rem; 
+    /* 2.3 rem ~ 37px */
+}

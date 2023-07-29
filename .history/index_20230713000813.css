@@ -1,0 +1,60 @@
+/* GLOBAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    /* 1 rem = 18px */ 
+    /* Không khai báo thì 1 rem là 16px */
+
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #212529;
+    background-color: #fff;
+    letter-spacing: 1px;
+}
+/* HEADER */
+header {
+    background-color: #4e2a84;
+    padding: 20px 0;
+}
+.header__content {
+    width: 70%;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header__content ul {
+    list-style: none;
+}
+.header__content ul a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    /* transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: linear; */
+    
+}
+.header__content ul a:hover {
+    color: #ff0e83;
+}
+.header__content ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+.header__content p {
+    color: white;
+    font-size: 2.3rem; 
+    /* 2.3 rem ~ 37px */
+}
+.header__content ul .active a {
+    color: #ff0e83;
+}

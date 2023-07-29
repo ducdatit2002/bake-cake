@@ -1,0 +1,27 @@
+/* GLOBAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #212529;
+    background-color: #fff;
+    letter-spacing: 1px;
+}
+/* HEADER */
+.header__content {
+    width: 70%;
+    margin: 0 auto; 
+}
+.header__content ul {
+    list-style: none;
+}
+.header__content ul a {
+    
+}
